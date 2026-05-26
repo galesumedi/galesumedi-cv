@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gale Sumedi — Finance Specialist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="layout">
+
+    <!-- ── Sidebar ──────────────────────────────────────────── -->
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <div class="brand-name">Gale Sumedi</div>
+        <div class="brand-title">Finance Specialist</div>
+        <div class="brand-sub">Reforestation · Construction · Mining</div>
+      </div>
+
+      <nav class="sidebar-nav" role="navigation" aria-label="Sections">
+        <button class="nav-item active" data-section="overview">Overview</button>
+        <button class="nav-item" data-section="experience">Experience</button>
+        <button class="nav-item" data-section="education">Education</button>
+        <button class="nav-item" data-section="skills">Skills</button>
+        <button class="nav-item" data-section="projects">Projects</button>
+        <button class="nav-item" data-section="achievements">Achievements</button>
+      </nav>
+
+      <div class="sidebar-contact">
+        <a href="mailto:gale.sumedi@bayes.city.ac.uk" class="contact-row">
+          <span class="contact-icon">✉</span>
+          <span>gale.sumedi@bayes.city.ac.uk</span>
+        </a>
+        <a href="tel:+447999987401" class="contact-row">
+          <span class="contact-icon">◎</span>
+          <span>+44 7999 987 401</span>
+        </a>
+        <a href="https://linkedin.com/in/gale-sumedi" target="_blank" rel="noopener" class="contact-row">
+          <span class="contact-icon">↗</span>
+          <span>linkedin.com/in/gale-sumedi</span>
+        </a>
+        <div class="contact-row static">
+          <span class="contact-icon">◉</span>
+          <span>London, UK</span>
+        </div>
+      </div>
+
+      <div class="sidebar-footer">
+        <a href="./CV-Gale-Sumedi.pdf" download class="btn-download">Download CV</a>
+      </div>
+    </aside>
+
+    <!-- ── Mobile header ─────────────────────────────────────── -->
+    <header class="mobile-header">
+      <span class="mobile-brand">Gale Sumedi</span>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <!-- ── Mobile drawer ─────────────────────────────────────── -->
+    <div class="mobile-drawer" id="mobileDrawer">
+      <nav class="mobile-nav">
+        <button class="nav-item active" data-section="overview">Overview</button>
+        <button class="nav-item" data-section="experience">Experience</button>
+        <button class="nav-item" data-section="education">Education</button>
+        <button class="nav-item" data-section="skills">Skills</button>
+        <button class="nav-item" data-section="projects">Projects</button>
+        <button class="nav-item" data-section="achievements">Achievements</button>
+      </nav>
+    </div>
+
+    <!-- ── Main ──────────────────────────────────────────────── -->
+    <main class="main">
+
+      <!-- Overview -->
+      <section class="section active" id="section-overview">
+        <header class="section-header">
+          <h1 class="section-title">Overview</h1>
+          <span class="section-meta">Updated May 2026</span>
+        </header>
+
+        <p class="overview-bio">
+          Finance professional with experience spanning reforestation project finance,
+          investment banking advisory, and corporate financial modelling. Educated at
+          Bayes Business School (MSc Finance, Distinction) and the University of Melbourne,
+          with hands-on roles across Indonesia, the United Kingdom, and Australia.
+        </p>
+
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-num"><span class="counter" data-target="6">0</span>+</div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num"><span class="counter" data-target="3">0</span></div>
+            <div class="stat-label">Countries</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num"><span class="counter" data-target="2">0</span></div>
+            <div class="stat-label">Degrees</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num"><span class="counter" data-target="2">0</span></div>
+            <div class="stat-label">Languages</div>
+          </div>
+        </div>
+
+        <h2 class="subsection-label">Currently</h2>
+        <div class="current-roles">
+          <div class="current-role">
+            <span class="pulse-dot"></span>
+            <div>
+              <div class="curr-role-title">Project Team Lead</div>
+              <div class="curr-role-company">PT. Makmur Adil Sentosa Bakti Borneo</div>
+            </div>
+          </div>
+          <div class="current-role">
+            <span class="pulse-dot"></span>
+            <div>
+              <div class="curr-role-title">Finance Specialist</div>
+              <div class="curr-role-company">PT. Tectona Alas Makmur</div>
+            </div>
+          </div>
+        </div>
+
+        <h2 class="subsection-label" style="margin-top:2rem">Work Authorisation &amp; Languages</h2>
+        <div class="tag-row">
+          <span class="tag">UK Graduate Visa</span>
+          <span class="tag">Indonesian — Native</span>
+          <span class="tag">English — Fluent</span>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section class="section" id="section-experience">
+        <header class="section-header">
+          <h1 class="section-title">Experience</h1>
+        </header>
+        <div class="timeline" id="experienceTimeline"></div>
+      </section>
+
+      <!-- Education -->
+      <section class="section" id="section-education">
+        <header class="section-header">
+          <h1 class="section-title">Education</h1>
+        </header>
+        <div class="edu-stack" id="educationCards"></div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section" id="section-skills">
+        <header class="section-header">
+          <h1 class="section-title">Skills</h1>
+        </header>
+        <div class="filter-row">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="finance">Finance</button>
+          <button class="filter-btn" data-filter="analytics">Analytics</button>
+          <button class="filter-btn" data-filter="dev">Development</button>
+        </div>
+        <div id="skillsContainer"></div>
+      </section>
+
+      <!-- Projects -->
+      <section class="section" id="section-projects">
+        <header class="section-header">
+          <h1 class="section-title">Projects</h1>
+        </header>
+        <div class="project-grid" id="projectCards"></div>
+      </section>
+
+      <!-- Achievements -->
+      <section class="section" id="section-achievements">
+        <header class="section-header">
+          <h1 class="section-title">Achievements</h1>
+        </header>
+        <div class="achieve-grid" id="achievementGrid"></div>
+      </section>
+
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
